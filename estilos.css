@@ -8,6 +8,13 @@ body {
     background-color: #22193F;
 }
 
+@media (min-width: 992px) {
+    .posicion-main {
+        height: 100vh;
+    }
+}
+
+
 .foto-back {
     background-image: url(imagenes/img-login.jpg);
     margin: 0;
@@ -36,6 +43,7 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+
 .texto-boton {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -64,7 +72,7 @@ body {
 }
 
 .borde-input {
-    border-color:#C4C4C4;
+    border-color: #C4C4C4;
 }
 
 /* <img src="imagenes/img-login.jpg" alt="foto" class="img-fluid" width="150" height="150" */
