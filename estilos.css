@@ -1,0 +1,70 @@
+body {
+    background-image: url(imagenes/ondas.svg);
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #22193F;
+}
+
+.foto-back {
+    background-image: url(imagenes/img-login.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto-titulo {
+    font-family: 'Nunito ', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.texto-enlace {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.texto-boton {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.texto-input {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.color-iconos {
+    color: #6A2A83;
+}
+
+.color-titulo {
+    color: #22193F;
+}
+
+.color-enlace {
+    color: #E21982;
+}
+
+.color-boton {
+    background-color: #E21982;
+}
+
+.borde-input {
+    border-color:#C4C4C4;
+}
+
+/* <img src="imagenes/img-login.jpg" alt="foto" class="img-fluid" width="150" height="150" */
